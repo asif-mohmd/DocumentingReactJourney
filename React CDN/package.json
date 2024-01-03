@@ -1,0 +1,16 @@
+{
+  "name": "react-cdn",
+  "version": "1.0.0",
+  "description": "This is React Learning Path",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Asif",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.3"
+  }
+}
+
+
