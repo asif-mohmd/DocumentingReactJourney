@@ -2,19 +2,21 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
 
-const parent = React.createElement("div",{id: "parent"},
-React.createElement("div",{id: "child"},
-React.createElement("h1",{id: "parent"},"This is Hhhhh1 tag")))
+// normal React Element
 
+const heading = (
+    <h1 className="head" tabIndex="5">
+        Hello World
+    </h1>
+)
 
-console.log(parent)
-
-const jsxHeading = <h1 id="heading">New Tag Test</h1>
-
-console.log(jsxHeading)
+// React Functional Component
+ const HeadingComponent = () =>(
+    <h1 className="heading">Function Component in React</h1>
+ )
 
 const root = ReactDOM.createRoot(document.getElementById("root"))
 
-root.render(jsxHeading)
+root.render(heading)
 
 
