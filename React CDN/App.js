@@ -4,7 +4,7 @@ import ReactDOM from "react-dom/client"
 
 // normal React Element
 
-const heading = (
+const Heading2 = () => (
     <h1 className="head" tabIndex="5">
         Hello World
     </h1>
@@ -12,11 +12,14 @@ const heading = (
 
 // React Functional Component
  const HeadingComponent = () =>(
-    <h1 className="heading">Function Component in React</h1>
+    <div className="container">
+        <Heading2/>
+        <h1 className="heading">Function Component in React</h1>
+    </div>
  )
 
 const root = ReactDOM.createRoot(document.getElementById("root"))
 
-root.render(heading)
+root.render(<HeadingComponent/>)
 
 
