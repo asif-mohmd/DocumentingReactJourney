@@ -4,6 +4,8 @@
   "description": "This is React Learning Path",
   
   "scripts": {
+    "start" : "parcel index.html",
+    "build" : "parcel build index.html",
     "test": "jest"
   },
   "author": "Asif",
