@@ -10,10 +10,15 @@ const Heading2 = () => (
     </h1>
 )
 
+const number = 1000
+
 // React Functional Component
  const HeadingComponent = () =>(
     <div className="container">
         <Heading2/>
+
+        {number}
+        
         <h1 className="heading">Function Component in React</h1>
     </div>
  )
